@@ -124,18 +124,18 @@ header {
 
 /*address section styles*/
 
-.address{
+.address {
     align-items: center;
     text-align: center;
     margin: 100px 45px 380px;
     background-color: rgb(250, 227, 227);
     padding-top: 100px;
-    border:0;
+    border: 0;
     border-radius: 10px;
-    
+
 }
 
-.address p{
+.address p {
     font-size: 32px;
     font-weight: 600;
     line-height: 55px;
@@ -156,5 +156,52 @@ header {
     padding: 15px 35px;
     border-radius: 8px;
     margin-top: 65px;
-    margin-bottom: 125px;    
+    margin-bottom: 125px;
 }
+
+/* offer section style*/
+
+.comming-soon {
+    align-items: center;
+    border: 0;
+    margin: 70px;
+    display: flex;
+}
+
+.offer h3 {
+    color: #F00;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.offer-details {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 400px;
+}
+
+.year-details h2 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 280px;
+}
+
+.bordered-image{
+    margin: 70px;
+    margin-right: 110px;
+    padding: 50px;
+    border: 15px solid  #F00;
+    border-radius: 100%;
+}
+
