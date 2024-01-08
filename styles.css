@@ -95,10 +95,10 @@ header {
     margin-top: 90px;
     margin-bottom: 0px;
     max-width: 600px;
-    
+
 }
 
-.year-img{
+.year-img {
 
     margin-right: auto;
     padding: 70px 0px 70px;
@@ -184,9 +184,7 @@ header {
 
 }
 
-.offer {
 
-}
 
 .offer h3 {
     color: #F00;
@@ -201,7 +199,7 @@ header {
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-    margin-top:15px ;
+    margin-top: 15px;
     margin-bottom: 0px;
 }
 
@@ -231,6 +229,50 @@ header {
 
 }
 
+/* advertisement section styles*/
+
+.add-images {
+    margin: auto;
+    display: flex;
+    max-width: 1320px;
+    justify-content: space-between;
+}
+
+
+.sale-img {
+    justify-content: center;
+    margin-bottom: 100px;
+    margin: auto;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 2180;
+    z-index: 10;
+}
+
+
+.discount {
+    justify-content: left;
+    background-image: url("resources/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-right: 260px;
+    padding-left: -100px;
+    padding-bottom: 125px;
+    padding-top: 125px
+    
+}
+
+
+
+.red {
+    background-color: #F00;
+    width: 1320px;
+    height: 229px;
+    margin: auto;
+    border: 0px;
+    border-radius: 16px 0px 16px 16px;
+    margin-top: -5px;
+}
 
 /* sale-box style section */
 
@@ -259,33 +301,10 @@ header {
     font-weight: 500;
     line-height: 32px;
     max-width: 1050px;
+    margin-bottom: 100px;
 }
 
 
-.sale-img {
-    display: flex;
-}
-
-.surprise-box {
-    max-width: 600px;
-    background-image: url("resources/Rectangle\ 2.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding: 200px;
-    background-size: 1320px 229px;
-}
-
-.discount {
-    max-width: 210px;
-    border: 7px solid white;
-    background-image: url("resources/Rectangle\ 1.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top, right;
-    padding: 200px;
-
-}
 
 /* gifts section design */
 
@@ -294,6 +313,7 @@ header {
 .items-sale {
     margin: auto;
     max-width: 1600px;
+    margin-top: 500px;
     border: 10px solid black;
 
 }
@@ -353,7 +373,7 @@ header {
     margin-bottom: 17px;
 }
 
-.news-letter img{
+.news-letter img {
     padding: 140px 0px 30px 0px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -404,12 +424,12 @@ footer {
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
-    background-color:#070211;
+    background-color: #070211;
     text-align: center;
     align-items: center;
 }
 
-hr{
+hr {
     border-bottom: 1px solid #FFFFFF26;
     width: 1320px;
 }
@@ -417,7 +437,7 @@ hr{
 .contact {
     line-height: 40px;
     text-align: left;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     max-width: 1600px;
     margin: auto;
@@ -431,28 +451,29 @@ hr{
 }
 
 .phone-email {
-    padding-top: 120px;    
+    padding-top: 120px;
     padding-left: 140px;
     margin-bottom: 55px;
     display: flex;
 }
 
-.phone-email img{
-   text-align: center;
-   padding-right: 16px;
+.phone-email img {
+    text-align: center;
+    padding-right: 16px;
 }
 
 
 
-.icon, .icon img{
+.icon,
+.icon img {
     align-items: center;
-    padding:50px 24px ;
-    
+    padding: 50px 24px;
+
 }
 
 .copyright {
     text-align: left;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     gap: 500px;
     max-width: 1600px;
