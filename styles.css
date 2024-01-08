@@ -268,8 +268,9 @@ header {
 /* gifts section design */
 
 .items-sale {
-    margin: auto;   
-    max-width: 1600px;;
+    margin: auto;
+    max-width: 1600px;
+    ;
     border: 10px solid black;
 
 }
@@ -280,7 +281,7 @@ header {
     font-size: 24px;
     font-weight: 500;
     padding-left: 128px;
-    padding:40px 0 12px 128px;
+    padding: 40px 0px 12px 128px;
 }
 
 .items-sale h2 {
@@ -288,7 +289,7 @@ header {
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-    padding:0 0 12px 128px;
+    padding: 0px 0px 12px 128px;
 
 }
 
@@ -301,10 +302,61 @@ header {
     padding-bottom: 40px;
 }
 
-.items{
+.items {
     margin: auto;
     text-align: center;
 }
-.item{
-    padding: 0 25px 25px 0;
+
+.item {
+    padding: 0px 25px 25px 0px;
+}
+
+/* newsletter section */
+
+
+.news-letter {
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.news-letter p {
+    margin: auto;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.news-letter .email {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    border-radius:50px 0px 0px 50px;
+    background: #FFF;
+    width: 650px;
+    height: 75px;
+}
+
+.news-letter .submit {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 250px;
+    height: 75px;
 }
