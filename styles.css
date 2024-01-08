@@ -124,7 +124,7 @@ header {
 
 /*address section styles*/
 
-.address {
+.date-time {
     align-items: center;
     text-align: center;
     margin: 100px 45px 380px;
@@ -135,17 +135,17 @@ header {
 
 }
 
-.address p {
+.date-time p {
     font-size: 32px;
     font-weight: 600;
     line-height: 55px;
 }
 
-.address span {
+.date-time span {
     color: #F00;
 }
 
-.address .btn-primary {
+.date-time .btn-primary {
     display: inline-flex;
     align-items: center;
     color: #FFF;
@@ -164,12 +164,14 @@ header {
 .comming-soon {
     align-items: center;
     border: 0;
-    margin: 70px;
+    margin: auto;
     display: flex;
+
 }
 
 .offer {
     margin-left: 50px;
+    margin: auto;
 }
 
 .offer h3 {
@@ -177,6 +179,7 @@ header {
     text-align: left;
     font-size: 24px;
     font-weight: 500;
+    margin: auto;
 }
 
 .offer h2 {
@@ -184,6 +187,7 @@ header {
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    margin: auto;
 }
 
 .offer-details {
@@ -192,6 +196,7 @@ header {
     font-weight: 400;
     line-height: 30px;
     max-width: 400px;
+    margin: auto;
 }
 
 .year-details h2 {
@@ -199,6 +204,7 @@ header {
     font-size: 48px;
     font-weight: 700;
     max-width: 280px;
+    margin: auto;
 }
 
 .bordered-image {
@@ -207,6 +213,7 @@ header {
     padding: 50px;
     border: 15px solid #F00;
     border-radius: 100%;
+    margin: auto;
 }
 
 
@@ -267,10 +274,11 @@ header {
 
 /* gifts section design */
 
+
+
 .items-sale {
     margin: auto;
     max-width: 1600px;
-    ;
     border: 10px solid black;
 
 }
@@ -327,6 +335,13 @@ header {
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 17px;
+}
+
+.news-letter img{
+    padding: 140px 0px 30px 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .news-letter p {
@@ -337,6 +352,9 @@ header {
     line-height: 32px;
     max-width: 800px;
     text-align: center;
+    margin-bottom: 22px;
+
+
 }
 
 .news-letter .email {
@@ -344,10 +362,11 @@ header {
     text-align: center;
     font-size: 18px;
     border: 0;
-    border-radius:50px 0px 0px 50px;
+    border-radius: 50px 0px 0px 50px;
     background: #FFF;
     width: 650px;
     height: 75px;
+    margin-bottom: 80px;
 }
 
 .news-letter .submit {
@@ -359,4 +378,70 @@ header {
     background: #F00;
     width: 250px;
     height: 75px;
+    margin-bottom: 180px;
+
+}
+
+
+/* footer styles */
+
+footer {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    background-color:#070211;
+    text-align: center;
+    align-items: center;
+}
+
+hr{
+    border-bottom: 1px solid #FFFFFF26;
+    width: 1320px;
+}
+
+.contact {
+    line-height: 40px;
+    text-align: left;
+    display:flex;
+    justify-content: space-around;
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+.address {
+    padding-top: 120px;
+    padding-right: 140px;
+    margin-bottom: 50px;
+}
+
+.phone-email {
+    padding-top: 120px;    
+    padding-left: 140px;
+    margin-bottom: 55px;
+    display: flex;
+}
+
+.phone-email img{
+   text-align: center;
+   padding-right: 16px;
+}
+
+
+
+.icon, .icon img{
+    align-items: center;
+    padding:50px 24px ;
+    
+}
+
+.copyright {
+    text-align: left;
+    display:flex;
+    justify-content: space-around;
+    gap: 500px;
+    max-width: 1600px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    margin: auto;
 }
