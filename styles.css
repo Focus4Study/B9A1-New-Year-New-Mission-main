@@ -173,7 +173,7 @@ header {
 
 /* offer section style*/
 
-.comming-soon {
+.coming-soon {
     align-items: center;
     border: 0;
     margin: auto;
@@ -354,6 +354,13 @@ header {
     padding: 0px 25px 25px 0px;
 }
 
+.items img:hover{
+    padding: 9px;
+    /* background-color: crimson; */
+    border: 10px solid rgb(14, 24, 173);
+    border-radius: 10px;
+}
+
 /* newsletter section */
 
 
@@ -470,6 +477,7 @@ hr {
     padding: 50px 24px;
 
 }
+
 
 .copyright {
     text-align: left;
